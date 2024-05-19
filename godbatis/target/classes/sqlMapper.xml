@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--样例-->
+<mapper namespace="user">
+
+    <insert id="insertUser">
+        insert into t_user values(#{id},#{name},#{age})
+    </insert>
+
+    <select id="selectById" resultType="org.god.ibatis.pojo.User">
+        select * from t_user where id = #{id};
+    </select>
+
+</mapper>

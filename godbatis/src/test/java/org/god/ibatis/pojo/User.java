@@ -4,6 +4,8 @@ public class User {
     private String id;
     private String name;
     private String age;
+    private int num;
+    private int[] nums;
 
     @Override
     public String toString() {

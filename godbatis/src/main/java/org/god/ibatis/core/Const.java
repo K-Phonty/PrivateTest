@@ -12,6 +12,4 @@ public class Const {
     public static final String JNDI_DATASOURCE = "JNDI";
     public static final String JDBC_TRANSACTION = "JDBC";
     public static final String MANAGED_TRANSACTION = "MANAGED";
-    public static final String CONSTANT = "CONSTANT";
-    public static final String CONSTANT2 = "CONSTANT2";
 }
